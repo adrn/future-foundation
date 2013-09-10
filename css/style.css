@@ -1,0 +1,28 @@
+html, body { 
+    background: #101010;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+#content {
+    background: #101010 url("../logo/bg.png") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    
+    height: 100%;
+    width: 25%;
+    min-width: 25%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#content.hover {
+    background: #101010 url("../logo/hover.png") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
